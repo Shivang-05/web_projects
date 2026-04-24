@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOREBOARD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="team">
+            <h3>HOME</h3>
+            <div id="home-score">0</div>
+            <div class="btns">
+            <button class="point1" onclick="add1()">+1</button>
+            <button class="point2" onclick="add2()">+2</button>
+            <button class="point3" onclick="add3()">+3</button>
+        </div></div>
+        <div class="team">
+            <h3>GUEST</h3>
+            <div id="guest-score">0</div>
+            <div class="btns">
+            <button class="point1" onclick="g_add1()" >+1</button>
+            <button class="point2" onclick="g_add2()">+2</button>
+            <button class="point3" onclick="g_add3()">+3</button>
+        </div></div>
+    </div>
+        <button id="new-game" onclick="reset()">New Game </button>
+    <script src="index.js"></script>
+</body>
+</html>
